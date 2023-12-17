@@ -1,0 +1,16 @@
+/* StudentDashboard.css */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+  }

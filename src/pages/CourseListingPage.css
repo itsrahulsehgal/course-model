@@ -1,0 +1,82 @@
+/* CourseListingPage.css */
+.course-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .course-item {
+    margin-bottom: 15px;
+  }
+  
+  .course-link {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .enroll-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .enroll-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+/* LandingPage.css */
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .dashboard-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+  }
+  
+  .dashboard-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .welcome-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul li:hover {
+    background-color: #e9ecef;
+  }
+  
